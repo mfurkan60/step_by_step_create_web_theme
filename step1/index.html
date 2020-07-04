@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive Web</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+</head>
+<body>
+  
+
+
+
+	<a id="icon"></a>
+
+	<div id="navbar">
+
+		<ul>
+			<li>
+				<a href="#"><i class="fas fa-home"></i>Home</a>
+			</li>
+			<li>
+				<a href="#"><i class="fas fa-address-card"></i>About</a>
+			</li>
+			<li>
+				<a href="#"><i class="fas fa-briefcase"></i>News</a>
+			</li>
+			<li>
+				<a href="#"><i class="fas fa-phone-volume"></i>Contact</a>
+			</li>
+			
+			 
+
+		</ul>
+
+	</div>
+
+
+
+
+
+
+	<header>
+		<div class="bg-image"></div>
+		<div class="content">
+			<h1>Welcome to Neftx.com</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, explicabo.
+			</p>
+			<a href="#" class="btn">About</a>
+		</div>
+		
+		
+	</header>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+	<script>
+		$(document).ready(function() {
+
+			$("#icon").click(function() {
+				$("#navbar ul").toggleClass("open");
+			});
+
+		});
+
+	</script>
+</body>
+</html>

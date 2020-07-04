@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #333;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+p {
+    padding: 1.6rem 0;
+}
+
+
+/*navbar  */
+#navbar ul {
+    list-style: none;
+    width: 50rem;
+    margin: 0 auto;
+
+}
+
+#navbar ul li {
+    float: left;
+    padding: 15px 20px;
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px
+}
+
+#navbar ul li a i {
+    margin-right: 5px
+}
+
+#navbar ul li a:hover {
+    text-decoration: underline
+}
+
+ 
+
+
+
+
+/*header*/
+header {
+    height: 100vh;
+}
+
+header .bg-image {
+    position: absolute;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+header h1 {
+
+    padding: 25rem;
+    padding-bottom: 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    border: 1px solid #666;
+    border-radius: 30px;
+    padding: 1.6rem 3.2rem;
+    margin: .5rem 0;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #eaeaea;
+    color: #333;
+}
+
+/*section */
+ 
+.about {
+    margin-top: 10rem;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-color: #fff;
+    color: black
+}
+.about i{
+    font-size: 20px
+}
+
+.about p {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto
+}
+
+.whoweare {
+    display: inline-block;
+    width: 30%;
+    margin-right: 5px;
+    padding: 6rem;
+
+}
+
+.whoweare hr {
+    height: 2px;
+    background-color: black;
+    border: none
+}
+
+.whoweare:hover {
+    background-color: #fff;
+    color: #000;
+    transition: .3s;
+    cursor: pointer;
+}
+.whoweare:hover i{
+    transform: translateY(-15px);
+    transition: all .5s;
+}
+
+.whoweare i {
+    font-size: 45px
+}
+/*News Section*/
+.news_area{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    padding-top: 10rem
+}
+.news{
+    display: inline-block;
+    width: 30%;
+    padding: 1rem
+}
+.news:hover{
+    transition: .5s;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.contact_area{
+    height: 100%;
+    width: 100%
+}
+.contact{
+    display: inline-block;
+    width: 43%;
+    padding: 1rem
+}
+.contact p{
+margin: 75px auto;
+    padding: 0 !important
+}
+/*footer */
+footer {
+	padding: 4rem;
+	background: #000;
+}
+
+footer a {
+	color: #2690d4;
+}
