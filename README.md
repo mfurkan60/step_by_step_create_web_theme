@@ -19,5 +19,14 @@ In this repositor  consists of 4 steps(files).
 * Css3
 * Jquery
 * Javascript
-
+## Final Screenshots
+ ![alt text](https://github.com/mfurkan60/step_by_step_create_web_theme/blob/master/step4/screenshots/screenshot.png)
+ /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ ![alt text](https://github.com/mfurkan60/step_by_step_create_web_theme/blob/master/step4/screenshots/screenshot1.png)
+ /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ ![alt text](https://github.com/mfurkan60/step_by_step_create_web_theme/blob/master/step4/screenshots/screenshot2.png)
+ /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ ![alt text](https://github.com/mfurkan60/step_by_step_create_web_theme/blob/master/step4/screenshots/screenshot3.png)
+ 
+ 
 
